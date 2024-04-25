@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-cont{
+    display: flex;
+    height: 100vh;
+    
+}
+.left-box{
+    background-color: blue;
+    width: 40%;
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: red;
+    width: 60%;
+    
+}
