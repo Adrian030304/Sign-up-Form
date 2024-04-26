@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Calibri,Verdana, Tahoma, sans-serif;
 }
 .main-cont{
     display: flex;
@@ -60,8 +60,14 @@ body{
 }
 label {
     display: block;
-    font-size:55%;
+    font-size:70%;
     font-weight: 600;
+}
+input{
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 3px 5px;
 }
 
 .form-group {
