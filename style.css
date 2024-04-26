@@ -29,10 +29,7 @@ body{
     flex:1 0
 }
 .top > p{
-    display: inline;
-    position: relative;
-    bottom: -150px;
-    left: 50px;
+    margin-top: 150px;
     font-weight :600;
     border-style: solid;
     border-width: 1px;
@@ -41,4 +38,27 @@ body{
 
 .middle{
     background-color: rgb(255, 255, 255);
+    
 }
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-container>span{
+    padding: 10px;
+    margin-left: 10px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 10px 10px 20px;
+}
+label {
+    display: block;
+}
+
+.form-group {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
