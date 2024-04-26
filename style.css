@@ -12,14 +12,14 @@ body{
 }
 .left-box{
     background-color: rgb(46, 133, 27);
-    flex: 0 1 30%;
+    flex: 0 1 40%;
 }
 .right-box{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     background-color: rgba(243, 243, 243, 0.918);
-    flex: 1 1 70%;
+    flex: 1 1 60%;
     
 }
 
@@ -46,13 +46,14 @@ body{
 }
 .form-container>span{
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .form{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 30px 10px 10px 20px;
+    margin: 30px 10px 10px 30px;
+    width: 45%;
 }
 label {
     display: block;
