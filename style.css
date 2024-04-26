@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 .main-cont{
     display: flex;
@@ -11,8 +12,10 @@ body{
     
 }
 .left-box{
-    background-color: rgb(46, 133, 27);
+    background-image: url("images/pandu-ior-hckbnUpcm6E-unsplash.jpg");
     flex: 0 1 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .right-box{
     display: flex;
@@ -58,6 +61,8 @@ body{
 }
 label {
     display: block;
+    font-size:55%;
+    font-weight: 600;
 }
 
 .form-group {
@@ -66,5 +71,14 @@ label {
 }
 
 .controls{
-    margin: 30px;
+    margin: 25px 30px;   
+}
+.control-para{
+    font-size:70%;
+    font-weight: 600;
+}
+
+#submit-btn{
+    padding: 10px 45px;
+    margin-bottom: 10px;
 }
