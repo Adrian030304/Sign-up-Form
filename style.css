@@ -69,6 +69,14 @@ input{
     border-style: solid;
     padding: 3px 5px;
 }
+input:invalid {
+    border-color: red;
+  }
+
+input:focus{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgb(59, 87, 249);
+}
 
 .form-group {
     flex-basis: calc(33.33% - 20px);
