@@ -51,6 +51,7 @@ body{
 .form-container>span{
     padding: 10px;
     margin-left: 20px;
+    font-weight: 600;
 }
 .form{
     display: flex;
@@ -76,6 +77,9 @@ label {
 .control-para{
     font-size:70%;
     font-weight: 600;
+}
+.control-para>span{
+    color: green;
 }
 
 #submit-btn{
