@@ -14,7 +14,7 @@ body{
 .left-box{
     background-image: url("images/pandu-ior-hckbnUpcm6E-unsplash.jpg");
     flex: 0 1 40%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .right-box{
